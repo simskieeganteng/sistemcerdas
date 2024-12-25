@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['botolminum', 'buku', 'kacamata', 'kepala cas', 'kopiah', 'korek api', 'lampu', 'pena', 'setrika', 'tas']
+
+roboflow:
+  workspace: techspace-sfa0d
+  project: benda-vk0ee
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/techspace-sfa0d/benda-vk0ee/dataset/1
